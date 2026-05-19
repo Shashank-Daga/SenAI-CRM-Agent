@@ -1,0 +1,26 @@
+[
+  {
+    "message_id": "msg-0001@example.com",
+    "sender": "victim@external-domain.com",
+    "recipient": "support@mycompany.com",
+    "subject": "Urgent: Potential ransomware attack detected",
+    "body": "We have detected a suspicious ransomware note and need immediate help.",
+    "received_at": "2026-05-19T09:12:00Z"
+  },
+  {
+    "message_id": "msg-0002@example.com",
+    "sender": "legal@external-law.com",
+    "recipient": "legal@mycompany.com",
+    "subject": "Cease and desist notice",
+    "body": "This is a formal notice for legal action regarding the recent breach.",
+    "received_at": "2026-05-19T09:14:00Z"
+  },
+  {
+    "message_id": "msg-0003@example.com",
+    "sender": "spammer@cheapdeals.com",
+    "recipient": "sales@mycompany.com",
+    "subject": "Click here to win free prizes",
+    "body": "Act now and claim your reward by clicking this link.",
+    "received_at": "2026-05-19T09:16:00Z"
+  }
+]
