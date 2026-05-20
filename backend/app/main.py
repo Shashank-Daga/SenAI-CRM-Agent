@@ -6,6 +6,9 @@ from app.api import api_router
 from app.core.config import settings
 from app.utils.logger import get_logger
 
+# Ensure agent tool registry is initialized before processing requests.
+import app.tools.registry  # noqa: F401
+
 logger = get_logger(__name__)
 
 app = FastAPI(title=settings.app_name, version="0.1.0")

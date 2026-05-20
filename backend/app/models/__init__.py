@@ -3,5 +3,6 @@ from app.models.thread import Thread
 from app.models.email import Email
 from app.models.action import Action
 from app.models.audit_log import AuditLog
+from app.models.web_intelligence_cache import WebIntelligenceCache
 
-__all__ = ["Contact", "Thread", "Email", "Action", "AuditLog"]
+__all__ = ["Contact", "Thread", "Email", "Action", "AuditLog", "WebIntelligenceCache"]
